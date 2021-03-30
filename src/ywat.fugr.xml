@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Wat</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYWATTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYWAT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>YWATFUNC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Wat The Function</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>DATASET_LIKE</PARAMETER>
+       <DBSTRUCT>YWATHELINE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>DATASET_TYPE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>YWATHETABLE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>DATASET_LIKE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATASET_TYPE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
